@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  overflow: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*---------------------DIV PRINCIPAL------------------------------*/
+
+#principal {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 95vh;
+}
+
+/*---------------------DIV PRINCIPAL------------------------------*/
+
+/*---------------------MENU LATERAL------------------------------*/
+
+.vertical-menu {
+  display: grid;
+  grid-template-rows: 33% 33% 33%;
+  background-image: url("../media/tree.jpg");
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+}
+
+/*----------Espacio Logo---------------*/
+
+.div_logo {
+  background-image: url("../media/logo.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-color: rgba(3, 25, 38);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+
+/*----------Espacio Logo---------------*/
+
+/*-------------------------------------*/
+
+/*----------Espacio  Menú---------------*/
+
+
+
+
+
+/*----------Espacio  Menú---------------*/
+
+/*--------------------------------------*/
+
+/*----------Espacio  Suscripción---------------*/
+
+.div_news {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  box-sizing: border-box;
+}
+
+.btn_join {
+  border-radius: 30px;
+  font-size: 15pt;
+  height: 3rem;
+  border: none;
+  background: #f73c08;
+}
+
+.btn_join:hover {
+  box-shadow: 0px 8px 24px rgba(211, 60, 22, 0.623);
+  transition: all 0.2s ease;
+}
+
+/*----------Espacio  Suscripción---------------*/
+
+/*---------------------------------------------*/
+
+/*---------------------MENU LATERAL------------------------------*/
+
+/*---------------------------------------------------------------*/
+
+/*---------------------MENU HORIZONTAL---------------------------*/
+
+.horizontal-menu {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  box-sizing: border-box;
+  }
+
+  .titulo{
+
+    color: white;
+    text-align: center;
+    font-size: 16pt;
+    width: 100%;
+    background-color: rgba(0, 0 , 0, 0.53)
+  }
+
+
+
+/*---------------------HAMBURGUESAS---------------------------*/
+
+.burguer {
+  background-image: url("../media/burguer.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burguer:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -webkit-transform: scale(1.1);
+  /* Chrome - Safari */
+  -o-transform: scale(1.1);
+  /* Opera */
+  transition: 0.3s;
+}
+
+
+/*---------------------HAMBURGUESAS---------------------------*/
+
+/*---------------------PATACONES---------------------------*/
+
+.patacones {
+  background-image: url("../media/patacones.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.patacones:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -webkit-transform: scale(1.1);
+  /* Chrome - Safari */
+  -o-transform: scale(1.1);
+  /* Opera */
+  transition: 0.5s;
+}
+
+/*---------------------PATACONES---------------------------*/
+
+/*---------------------CARNES---------------------------*/
+
+.carnes {
+  background-image: url("../media/carnes.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carnes:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -webkit-transform: scale(1.1);
+  /* Chrome - Safari */
+  -o-transform: scale(1.1);
+  /* Opera */
+  transition: 0.5s;
+}
+
+/*---------------------CARNES---------------------------*/
+
+/*---------------------HOT DOGS---------------------------*/
+
+.dogs {
+  background-image: url("../media/dogs.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dogs:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -webkit-transform: scale(1.1);
+  /* Chrome - Safari */
+  -o-transform: scale(1.1);
+  /* Opera */
+  transition: 0.5s;
+}
+
+/*---------------------HOT DOGS---------------------------*/
+
+/*---------------------OTROS---------------------------*/
+
+.otros {
+  background-image: url("../media/otros.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otros:hover {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  /* Firefox */
+  -webkit-transform: scale(1.1);
+  /* Chrome - Safari */
+  -o-transform: scale(1.1);
+  /* Opera */
+  transition: 0.5s;
+}
+
+/*---------------------OTROS---------------------------*/
+
+/*---------------------MENU HORIZONTAL---------------------------*/
+
+/*-----------------------FOOTER----------------------------------*/
+
+.footer {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #031926;
+  color: white;
+  letter-spacing: 2px;
+}
+
+/*-----------------------FOOTER----------------------------------*/
