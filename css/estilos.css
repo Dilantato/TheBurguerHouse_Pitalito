@@ -90,7 +90,7 @@
   }
 
   .titulo{
-
+    
     color: white;
     text-align: center;
     font-size: 16pt;
@@ -120,7 +120,7 @@
   /* Chrome - Safari */
   -o-transform: scale(1.1);
   /* Opera */
-  transition: 0.3s;
+  transition: 0.4s;
 }
 
 
