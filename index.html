@@ -17,32 +17,122 @@
 
             <div class="div_logo"> </div>
             <div class="div_iconMenu">
-                <div id="icon1"><a href=""><img class="icon_social" src="media/icon_wasap.png" alt="icon_wasap"></a></div>
+                <div id="icon1"><a href=""><img class="icon_social" src="media/icon_wasap.png" alt="icon_wasap"></a>
+                </div>
                 <div id="icon2"><a href=""><img class="icon_social" src="media/icon_fb.png" alt="icon_fb"></a> </div>
-                <div id="icon3"><a href=""> <img class="icon_social" src="media/icon_insta.png" alt="icon_insta"></a></div>
+                <div id="icon3"><a href=""> <img class="icon_social" src="media/icon_insta.png" alt="icon_insta"></a>
+                </div>
 
             </div>
             <div class="div_news"><input type="button" value="Suscribete" class="btn_join"></div>
         </div>
 
-        <div class="horizontal-menu">
-            <div class="burguer">
+        <div class="horizontal-menu" id="horizontal-menu">
+
+            <div id="burguer-container" class="product-container">
+                <div class="product">
+                    <img src="media/burguer.jpg" alt="Hamburguesas" class="img_product">
+                    <div class="container">
+                        <p>America clasica</p>
+                        <h3>$ 15.000</h3>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="media/burguer.jpg" alt="Hamburguesas" class="img_product">
+                    <div class="container">
+                        <p>Americana especial</p>
+                        <h3>$ 15.000</h3>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="media/burguer.jpg" alt="Hamburguesas" class="img_product">
+                    <div class="container">
+                        <p>Americana clasica</p>
+                        <h3>$ 15.000</h3>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="media/burguer.jpg" alt="Hamburguesas" class="img_product">
+                    <div class="container">
+                        <p>Americana clasica</p>
+                        <h3>$ 15.000</h3>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="media/burguer.jpg" alt="Hamburguesas" class="img_product">
+                    <div class="container">
+                        <p>Americana clasica</p>
+                        <h3>$ 15.000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="media/burguer.jpg" alt="Hamburguesas" class="img_product">
+                    <div class="container">
+                        <p>Americana clasica</p>
+                        <h3>$ 15.000</h3>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="media/burguer.jpg" alt="Hamburguesas" class="img_product">
+                    <div class="container">
+                        <p>Americana clasica</p>
+                        <h3>$ 15.000</h3>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img src="media/burguer.jpg" alt="Hamburguesas" class="img_product">
+                    <div class="container">
+                        <p>Americana clasica</p>
+                        <h3>$ 15.000</h3>
+                    </div>
+                </div>
+
+                <input type="button" id="back-button" onclick="backButton()">
+            </div>
+
+            <div id="div-burguer" class="burguer" onclick="cambioBurguerContainer()">
                 <span class="titulo">Hamburguesas</span>
             </div>
-            <div class="patacones">
+
+            <div id="patacones-container" class="product-container">
+
+                <input type="button" id="back-button" onclick="backButton1()">
+            </div>
+            <div class="patacones" onclick="cambioPataconesContainer()">
                 <span class="titulo">Patacones</span>
             </div>
-            <div class="carnes">
+
+            <div id="carnes-container" class="product-container">
+
+                <input type="button" id="back-button" onclick="backButton2()">
+            </div>
+            <div class="carnes" onclick="cambioCarnesContainer()">
                 <span class="titulo">Carnes</span>
             </div>
-            <div class="dogs">
+
+            <div id="dogs-container" class="product-container">
+
+                <input type="button" id="back-button" onclick="backButton3()">
+            </div>
+            <div class="dogs" onclick="cambioDogsContainer()">
                 <span class="titulo">Perros</span>
             </div>
-            <div class="otros">
+
+            <div id="otros-container" class="product-container">
+
+                <input type="button" id="back-button" onclick="backButton4()">
+            </div>
+            <div class="otros" onclick="cambioOtrosContainer()">
                 <span class="titulo">Otras Delicias</span>
             </div>
 
         </div>
+
 
     </div>
     <div class="footer">
@@ -50,7 +140,7 @@
     </div>
 
 
-
+    <script src="js/js.js"></script>
 </body>
 
 </html>

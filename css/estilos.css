@@ -10,6 +10,7 @@
   display: grid;
   grid-template-columns: 15% 85%;
   grid-template-rows: 95vh;
+  
 }
 
 /*---------------------DIV PRINCIPAL------------------------------*/
@@ -102,6 +103,7 @@
   display: grid;
   grid-template-columns: repeat(5, 20%);
   box-sizing: border-box;
+  position: relative;
 }
 
 .titulo {
@@ -110,6 +112,21 @@
   font-size: 16pt;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.53)
+}
+
+#back-button{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 90%;
+  right: 95%;
+  z-index: 2;
+  background-image: url("../media/back-button.png");
+  background-size: 100% 100%;
+  background-color: white;
+  border-style: none;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, .5);
+  border-radius: 50px;
 }
 
 /*---------------------HAMBURGUESAS---------------------------*/
@@ -135,6 +152,39 @@
   transition: 0.4s;
 }
 
+#burguer-container{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color:white;
+  position: absolute;
+  width: 100%;
+  height: 95vh;
+  display: none;
+  border-left: 7px solid #f90202;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  
+}
+
+div.product {
+  width: 250px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+div.container {
+  
+}
+
+.img_product{
+  height: 250px;
+  width: 250px;
+}
 /*---------------------HAMBURGUESAS---------------------------*/
 
 /*---------------------PATACONES---------------------------*/
@@ -159,7 +209,19 @@
   /* Opera */
   transition: 0.5s;
 }
+#patacones-container{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 95vh;
+  display: none;
+  border-left: 7px solid #000000;
 
+}
 /*---------------------PATACONES---------------------------*/
 
 /*---------------------CARNES---------------------------*/
@@ -181,6 +243,21 @@
   -o-transform: scale(1.1);
   /* Opera */
   transition: 0.5s;
+
+}
+
+#carnes-container{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 95vh;
+  display: none;
+  border-left: 7px solid #f73c08;
+
 }
 
 /*---------------------CARNES---------------------------*/
@@ -206,6 +283,20 @@
   transition: 0.5s;
 }
 
+#dogs-container{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 95vh;
+  display: none;
+  border-left: 7px solid #1f0000;
+
+}
+
 /*---------------------HOT DOGS---------------------------*/
 
 /*---------------------OTROS---------------------------*/
@@ -227,6 +318,20 @@
   -o-transform: scale(1.1);
   /* Opera */
   transition: 0.5s;
+}
+
+#otros-container{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 95vh;
+  display: none;
+  border-left: 7px solid #001f54;
+
 }
 
 /*---------------------OTROS---------------------------*/
