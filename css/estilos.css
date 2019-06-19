@@ -19,7 +19,7 @@
 .vertical-menu {
   display: grid;
   grid-template-rows: 40% 40% 20%;
-  background-image: url("../media/tree.jpg");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/tree.jpg");
   background-repeat: no-repeat;
   background-size: 200% 100%;
 }
@@ -27,7 +27,7 @@
 /*----------Espacio Logo---------------*/
 
 .div_logo {
-  background-image: url("../media/logo.png");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/logo.png");
   background-size: 100% 85%;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -121,7 +121,7 @@
   bottom: 90%;
   right: 95%;
   z-index: 2;
-  background-image: url("../media/back-button.png");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/back-button.png");
   background-size: 100% 100%;
   background-color: white;
   border-style: none;
@@ -132,7 +132,7 @@
 /*---------------------HAMBURGUESAS---------------------------*/
 
 .burguer {
-  background-image: url("../media/burguer.jpg");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/burguer.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -160,14 +160,14 @@
   background-color: white;
   position: absolute;
   width: 100%;
-  height: 95vh;
+  height: 95%;
   display: none;
   border-left: 7px solid #f90202;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-items: center;
   overflow-y: scroll;
-  padding-top: 2.5rem;
+  padding-top: 6.5rem;
+  
 }
 
 #banner {
@@ -188,12 +188,13 @@
 }
 
 div.product {
-  width: 350px;
-  height: 500px;
+  width: 30%;
+  height: 80%;
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.5), 0 8px 30px 0 rgba(0, 0, 0, 0.31);
   text-align: center;
   display: flex;
   flex-flow: row wrap;
+  margin-bottom: 10%;
 }
 
 div.container {
@@ -208,6 +209,7 @@ div.container {
 .div_buy {
   display: grid;
   grid-template-columns: 80% 20%;
+  grid-template-rows: 1fr;
   background-color: #f73c08;
   width: 100%;
   
@@ -221,7 +223,7 @@ div.container {
 }
 
 .btn_buy {
-  background-image: url("../media/btn_buy.png");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/btn_buy.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
@@ -231,7 +233,7 @@ div.container {
 /*---------------------PATACONES---------------------------*/
 
 .patacones {
-  background-image: url("../media/patacones.jpg");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/patacones.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -259,7 +261,7 @@ div.container {
   background-color: white;
   position: absolute;
   width: 100%;
-  height: 95vh;
+  height: 100%;
   display: none;
   border-left: 7px solid #000000;
 }
@@ -269,7 +271,7 @@ div.container {
 /*---------------------CARNES---------------------------*/
 
 .carnes {
-  background-image: url("../media/carnes.jpg");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/carnes.jpg");
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
@@ -305,7 +307,7 @@ div.container {
 /*---------------------HOT DOGS---------------------------*/
 
 .dogs {
-  background-image: url("../media/dogs.jpg");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/dogs.jpg");
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
@@ -341,7 +343,7 @@ div.container {
 /*---------------------OTROS---------------------------*/
 
 .otros {
-  background-image: url("../media/otros.jpg");
+  background-image: url("../media/IMG_MENU-HORIZONTAL/otros.jpg");
   background-size: 100% 100%;
   display: flex;
   justify-content: center;
